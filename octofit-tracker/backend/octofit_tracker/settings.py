@@ -85,10 +85,7 @@ DATABASES = {
         'CLIENT': {
             'host': 'localhost',
             'port': 27017,
-            'username': '',
-            'password': '',
-            'authSource': '',
-            'authMechanism': '',
+            # No authentication required for local dev
         },
     }
 }
